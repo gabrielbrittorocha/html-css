@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body {
+    text-align: center;
+    font: normal 22px arial, verdana
+}
+
+p {text-align: justify;
+text-indent: 30px;
+}
+/* (text-align) é pra dizer onde vai ficar o texto ("center", "right", "left") 
+(text-indent) é pra dar um espaçamento no inicio do paragrafo, igual ao enem; */
+
+h1{
+color: rgb(160, 95, 95);
+}
+h2{
+text-align: left;
+color:yellow;
+}
+ h1#principal{
+    text-align: left;
+    background-color: red;
+    color: black;
+ }
+h2#principal{
+background-color: rgb(45, 201, 97);
+color: white;
+text-align: center;
+}
+/* (o ID em HTML é '#' em CSS), ID é usado para criar configuraçoes especiais para elementos especificos.
+   (Tudo que em HTML é 'Class' em CSS é '.')
+*/

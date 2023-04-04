@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Elements</title>
+<style>
+div{
+    display: inline-block;
+
+   
+}
+.principal {
+    background-color: rgb(150, 64, 90)
+    
+  
+}
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+
+a:hover{
+    color: rgb(145, 255, 0);
+    text-decoration: underline;
+}
+
+a::after{
+  content: 's';
+}
+
+
+</style>
+
+</head>
+<body>
+   
+    <div>
+        <h1>Personalizando links</h1>
+        <ul>
+            <li><a class="principal" href="https://www.youtube.com/watch?v=lRoC785PGJE">analisando vagas de emprego</a></ul></li>
+            <li><a href="https://www.youtube.com/watch?v=DflgCA4P8OQ">CHATGPT</a></li>
+            <li><a href="index.html" target="_blank 'external'">pag 01</a></li>
+        
+    </div>
+</body>
+</html>

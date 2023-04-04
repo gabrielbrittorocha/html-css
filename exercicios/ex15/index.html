@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Classes</title>
+<style>
+    body {
+      background-color: rgb(240, 229, 229);
+    }
+    div > p {
+        color: rgb(187, 18, 18);
+        width: 200px;
+        font-style: italic;
+       font-weight: bold;
+       font-size: larger;
+        
+    }
+
+    div:hover > h3{
+        background-color: rgb(6, 148, 214);
+        width: 200px;
+        color: rgb(151, 240, 7);
+    }
+     div > h3 {
+        display: none;
+        font-style: italic;
+        
+    }
+    div:hover > h3 {
+        display: block
+        
+        
+       
+    
+    }
+
+</style>
+
+
+</head>
+
+<body>
+    <h1>Teste</h1>
+    <div>
+    
+        <p>passe o mouse aqui</p>
+        <h3>Muito Obrigado pela bala
+
+        </h3>
+    </div>
+</body>
+</html>

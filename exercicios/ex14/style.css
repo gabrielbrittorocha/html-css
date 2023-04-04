@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+.basico{
+    background-color: red;
+}
+
+.intermediario{
+    background-color: greenyellow;
+}
+
+.avancado{
+    background-color: blue;
+}
+
+h1{
+    color: orange;
+    text-align: center;
+}
+h1#principal{
+    color: pink;
+    text-align: left
+}
+
+/* só pode um elemento com ID em HTML
+pode varios elementos com Class em HTML

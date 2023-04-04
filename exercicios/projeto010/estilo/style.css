@@ -1,0 +1,139 @@
+@charset "UTF8";
+@font-face{
+        font-family: 'idroid';
+        src:url(fontes/idroid.otf) format('opentype');
+    }
+
+body{
+    background-color: rgb(231, 231, 196);    
+}
+
+header{
+background-image: linear-gradient(to bottom, rgb(48, 129, 48),  rgb(27, 66, 27));
+padding: 1px;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.322);
+text-align: center;
+}
+
+header h1{
+    text-align: center;
+    color: white;
+}
+header h2{
+    text-align: center;
+    color: white;
+}
+
+
+menu{
+    color: green;
+    padding: 0px;  
+}
+
+menu > a:hover{
+    background-color: rgb(19, 190, 19);
+    border-radius: 20%;
+    padding: 8px;
+    transition-duration: 1s;
+   
+}
+
+.mn{
+    color: rgb(23, 146, 23);
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+    text-decoration: none;
+    
+}
+
+main h1{
+    font-family: 'idroid';
+    color: #008000;
+    text-align: left;
+}
+
+main{
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.336);
+    text-align: justify;
+    min-width: 320px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px;
+}
+
+main p{
+ line-height: 2em;
+
+}
+
+main h2{
+    font-family: 'idroid';
+    color: #008000;
+    background-image:linear-gradient(to right, rgba(152, 219, 180, 0.781), rgba(186, 194, 186, 0.514));
+}
+section h2 {
+    font-family: 'idroid';
+    color: #008000;
+    background-image:linear-gradient(to right, rgba(152, 219, 180, 0.781), rgba(186, 194, 186, 0.514));
+}
+
+main a{
+    
+        background-image:linear-gradient(to right, rgba(152, 219, 180, 0.781), rgba(186, 194, 186, 0.514)); 
+        color: green;
+        text-decoration: none;
+        font-weight: bolder;
+    }
+
+
+.droi{
+    color: green;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+aside{
+    background-color: #259667be;
+}
+
+aside h1{
+    background-color: #04ff9f;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+aside ul{
+    display:block;
+    text-align: auto;
+    text-decoration: underline;
+    columns: 2;
+}
+
+footer{
+    background-color: #008000;
+    text-align: center;
+    font-size: 18px
+}
+
+footer > a{
+    color: var(--cor3);
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+}
+
+/*tag de variantes*/
+
+:root{
+    --cor1: #008000;
+    --cor2: #04ff9f;
+    --cor3: white;
+}
