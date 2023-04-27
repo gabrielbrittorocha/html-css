@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela completa</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            
+        }
+        th,td{
+            border: 2px solid;
+            padding: 10px;
+            font-size: 1.2em;
+            
+        }
+        caption{
+            font-weight: bold;
+            font-size: 2em;
+        }
+        .dados{
+            background-color: rgb(88, 86, 82);
+        }
+        
+        #sxw{
+            background-color: rgb(196, 55, 102);
+        }
+        
+        #sx{
+            background-color: blue;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Exercicio Tabela</h1>
+
+    <table>
+        <caption>
+        Top 3 Filmes favoritos por pessoa 
+        </caption>
+        <thead>
+            <tr>
+                <th class="dados" scope="col">Grupo</th>
+                <th class="dados" scope="col">Nomes</th>
+                <th class="dados" colspan="3" scope="colgroup">Filmes</th>
+            </tr>
+        </thead>
+    
+        <tbody>
+            <tr>
+                <th id="sxw" rowspan="3" scope="rowgroup"> Mulheres</th>
+                <td> Ana</td>
+                <td> Crepusculo</td>
+                <td> Harry Potter</td>
+                <td>Como eu era antes de você</td>
+            </tr>
+            <tr>
+                <td>Beatriz</td>
+                <td>About time</td>
+                <td>Amores de Verão</td>
+                <td>As vantagens de ser invisivel</td>
+            </tr>    
+            <tr>
+                <td>Claudia</td>
+                <td>Interstrelar</td>
+                <td>Avatar</td>
+                <td>Magico de oz</td>
+            </tr>
+
+            <tr>
+                <th id="sx" rowspan="3" scope="rowgroup">Homens</th>
+                <td>Raphael</td>
+                <td>Diário de uma paixão</td>
+                <td>About time</td>
+                <td>Antes do amanhecer</td>
+            </tr>
+            <tr>
+                <td>Miguel</td>
+                <td>Harry Potter</td>
+                <td>Senhor dos Aneis</td>
+                <td>Jogos Vorazes</td>
+            </tr>
+            <tr>
+                <td>Daniel</td>
+                <td>Ilha do medo</td>
+                <td>Lobo de Wallstreet</td>
+                <td>Tropa de elite</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="4">Total</th>
+                <td>1000</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
